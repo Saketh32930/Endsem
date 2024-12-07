@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Prevent large zoom on click and add smooth zoom for transitions */
+.carousel-item img {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Scale the image slightly when hovering */
+.carousel-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Ensure no zoom effect when the image is clicked */
+.carousel-item img:active {
+  transform: scale(1);
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
